@@ -3,7 +3,7 @@
 The Personal Food Log App is an open-source software development project aimed to
 provide users with a robust and effective manner of documenting their daily food consumption. 
 
-## API Reference
+## API REFERENCE
 
 http://3.22.114.219:8000/docs - FASTAPI
 
@@ -12,7 +12,7 @@ http://3.22.114.219:8000/docs - FASTAPI
 TAKES THE INPUT IMAGE FROM THE USER'S DEVICE AND PREDICTS THE FOOD ITEM RECOGNIZED.
 
 
-## Documentation
+## DOCUMENTATION
 
 Currently we have used 100 images of each of the items listed below to train the model
  1. ICE CREAM
