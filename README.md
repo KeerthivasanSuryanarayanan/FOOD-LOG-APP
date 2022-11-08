@@ -41,3 +41,34 @@ Hence the model has predicted the food with 0.99999726% accuracy.
 ![image](https://user-images.githubusercontent.com/104590925/200436477-10aa3788-49ba-46f2-97fb-4988ff7c3282.png)
 This also has been predicted with an accuracy of 0.9999974%
 
+## EXAMPLE 3
+
+![1084](https://user-images.githubusercontent.com/104590925/200438621-3d113803-8ed4-4076-89d7-1b49b2c104f1.jpg)
+![image](https://user-images.githubusercontent.com/104590925/200439609-557a85b7-7f72-4dc2-9d66-83b88a473666.png)
+![image](https://user-images.githubusercontent.com/104590925/200439684-92dcabbb-278c-411c-99b8-178fc7379a41.png)
+This has been predicted with an accuracy of 0.9996389%
+
+## EXAMPLE 4
+
+![209090](https://user-images.githubusercontent.com/104590925/200440253-30f64aac-f681-4681-a942-e84748e2b672.jpg)
+![image](https://user-images.githubusercontent.com/104590925/200440186-0554c51c-f837-40e8-b918-d4f2810c5188.png)
+![image](https://user-images.githubusercontent.com/104590925/200440296-d822f14c-9688-4d6e-9671-7e5629038559.png)
+Sushi has been predicted with an accuracy of 0.99999154%
+
+
+## EXAMPLE 5
+
+![237125](https://user-images.githubusercontent.com/104590925/200440514-7ea10f27-72fa-4ab5-9e5e-ecd3e166413e.jpg)
+![image](https://user-images.githubusercontent.com/104590925/200440756-c1d33a74-ec6a-41c4-82f4-5f22b0485762.png)
+![image](https://user-images.githubusercontent.com/104590925/200440799-1adc277f-065c-4303-9e45-20fe48488371.png)
+
+Curry has been predicted with an accuracy of 0.875303%
+
+## EXAMPLE 6
+
+![248199](https://user-images.githubusercontent.com/104590925/200441164-71798734-1dfc-4ebb-8239-0e24159b1ddb.jpg)
+![image](https://user-images.githubusercontent.com/104590925/200441141-963676c2-e0d0-4f00-af8f-f5687c41bed6.png)
+![image](https://user-images.githubusercontent.com/104590925/200441214-7606d9ca-12a7-4ea3-b828-4c473da3f17d.png)
+
+Pizza has been predicted with an accuracy of 0.99999166%
+
