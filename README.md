@@ -3,9 +3,12 @@
 The Personal Food Log App is an open-source software development project aimed to
 provide users with a robust and effective manner of documenting their daily food consumption. 
 
-## API REFERENCE
+## WEB APPLICATION
 
 http://3.22.114.219/ - WEB APPLICATION LINK
+
+
+## API REFERENCE
 http://3.22.114.219:8000/docs - FASTAPI
 
 
