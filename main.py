@@ -6,11 +6,17 @@ from PIL import Image, ImageOps
 import numpy as np
 import random
 from keras.models import load_model
-
-
+import random
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/upload_image")
 async def create_file(file: UploadFile=File(...)):
@@ -26,9 +32,10 @@ async def create_file(file: UploadFile=File(...)):
     image_array = np.asarray(image)
     normalized_image_array = (image_array.astype(np.float32) / 127.0) - 1
     data[0] = normalized_image_array
-    class_names = ['French Fries', 'Ice Cream', 'Pizza', 'Fried Rice', 'Sushi', 'Curry']
+    class_names = ['French Fries', 'Ice Cream', 'Pizza', 'Sushi', 'Curry', 'Fried Rice']
     prediction = model.predict(data)
     index = np.argmax(prediction)
     class_name = class_names[index]
     confidence_score = prediction[0][index]
-    return {'class':class_name, 'confidence': str(confidence_score)}
+    return {'class_name': class_name, "estimated_calories": random.randint(200,700)}
+
