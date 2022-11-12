@@ -5,6 +5,7 @@ provide users with a robust and effective manner of documenting their daily food
 
 ## API REFERENCE
 
+http://3.22.114.219/ - WEB APPLICATION LINK
 http://3.22.114.219:8000/docs - FASTAPI
 
 
